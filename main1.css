@@ -1,0 +1,117 @@
+body
+{
+    font-family: Verdana;
+}
+.main-container
+{
+	max-width: 1100px;
+	margin: auto;
+}
+.menu,.main-contain,.most-popular
+{
+	float: left;
+}
+.menu,.most-popular
+{
+	width: 20%;
+}
+.main-contain
+{
+	width: 60%;
+}
+.good
+{
+	width: 630px;
+}
+.good header h1
+{
+    color: green;
+}
+.good header p
+{
+	background-color: red;
+	color: white;
+}
+.good figure
+{
+	width: 400px;
+	border: 3px solid black;
+	padding: 3px;
+}
+.good figure img
+{
+	width: 100%;
+}
+.good figure figcaption
+{
+	color: green;
+}
+.comment
+{
+	margin-top: 150px;
+	color: red;
+}
+.names,input[type="text"]
+{
+	margin-bottom: 10px;
+}
+.textes
+{
+	margin-top: 20px;
+}
+#butt
+{
+	color: white;
+	background-color: palevioletred;
+	border: 2px solid mediumvioletred;
+}
+
+
+#Unsigned-list
+{
+	background-color: palevioletred;
+	color: blue;
+	padding: 0;
+	width: 200px;
+	list-style: none;
+	border: solid 2px mediumvioletred;
+	
+}
+.list-element
+{
+    padding: 5px;
+    border-bottom: 2px solid mediumvioletred;
+}
+.list-element:last-child
+{
+    border-bottom: none;							
+}
+.simple
+{
+	color: white;
+	text-decoration: none;
+}
+.list-element a:hover
+{
+	text-decoration: underline;
+}
+.important
+{
+	color: lightblue;
+	text-decoration: none;
+}
+.most-popular h3
+{
+	color: blue;
+}
+.most-popular a
+{
+	text-decoration: none;
+	color: red;
+}
+.most-popular a:hover
+{
+	text-decoration: underline;
+}
+
+

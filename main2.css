@@ -1,0 +1,84 @@
+body
+{
+    font-family: Verdana;
+}
+.main-contain header
+{
+	text-align: center;
+}
+.main-container
+{
+	max-width: 1100px;
+	margin: auto;
+}
+.menu,.main-contain,.most-popular
+{
+	float: left;
+}
+.menu,.most-popular
+{
+	width: 20%;
+}
+.main-contain
+{
+	width: 630px;
+}
+.main-contain figure
+{
+	width: 400px;
+	border: 3px solid black;
+	padding: 3px;
+	margin: auto;
+}
+.main-contain figure img
+{
+	width: 100%;
+}
+#Unsigned-list
+{
+	background-color: palevioletred;
+	color: blue;
+	padding: 0;
+	width: 200px;
+	list-style: none;
+	border: solid 2px mediumvioletred;
+	
+}
+.list-element
+{
+    padding: 5px;
+    border-bottom: 2px solid mediumvioletred;
+}
+.list-element:last-child
+{
+    border-bottom: none;							
+}
+.simple
+{
+	color: white;
+	text-decoration: none;
+}
+.list-element a:hover
+{
+	text-decoration: underline;
+}
+.important
+{
+	color: lightblue;
+	text-decoration: none;
+}
+.most-popular h3
+{
+	color: blue;
+}
+.most-popular a
+{
+	text-decoration: none;
+	color: red;
+}
+.most-popular a:hover
+{
+	text-decoration: underline;
+}
+
+
